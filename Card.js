@@ -4,8 +4,8 @@ import {
   View,
 } from 'react-native';
 
-const Card = ({ style, children }) => (
-  <View style={style} >
+const Card = ({ style, children, overflow }) => (
+  <View style={style} overflow={overflow}>
     {children}
   </View>);
 
